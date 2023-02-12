@@ -20,7 +20,6 @@ cd starter-backend
 ```
 
 Open .env file and edit 
-![DB connection](/images/1.png?raw=true "DB connection")
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -37,6 +36,8 @@ Run backend
 ```sh
 php artisan serve
 ```
+You should see the running url like - 
+![Server running](/images/2.png?raw=true "Server Running")
 
 ## For Front-end
 Go to frontend folder
