@@ -20,7 +20,7 @@ cd starter-backend
 ```
 
 Open .env file and edit 
-![DB connection](/image/1.png "DB connection")
+![DB connection](https://github.com/nazmussakib44/laravel-vue-starter-kit/blob/main/images/1.png?raw=true "DB connection")
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
