@@ -20,7 +20,7 @@ cd starter-backend
 ```
 
 Open .env file and edit 
-![This is a alt text.](/image/1.png "This is a sample image.")
+![DB connection](/image/1.png "DB connection")
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
