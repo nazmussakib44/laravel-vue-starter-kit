@@ -76,10 +76,6 @@ export const actions = {
     }
   },
   logout({ commit, dispatch, state }, payload) {
-    commit("SET_AUTHORIZED", false);
-    commit("SET_USER", {});
-    localStorage.setItem("token", "");
-    router.push({ path: "/login" });
     service
       .logout()
       .then((response) => {
@@ -88,7 +84,12 @@ export const actions = {
       .catch((err) => {
         console.log(err);
       })
-      .finally(() => {});
+      .finally(() => {
+        commit("SET_AUTHORIZED", false);
+        commit("SET_USER", {});
+        localStorage.setItem("token", "");
+        router.push({ path: "/login" });
+      });
   },
 };
 

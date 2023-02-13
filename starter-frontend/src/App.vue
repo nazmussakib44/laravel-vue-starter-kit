@@ -1,10 +1,12 @@
 <template>
-  <div>
+  <section class="h-full gradient-form bg-gray-200 md:h-screen">
     <siteHeader />
-    <main class="container mx-auto">
-      <router-view />
-    </main>
-  </div>
+    <div class="container h-full w-full max-w-full">
+      <div class="flex justify-center items-center flex-wrap h-full text-gray-800">
+        <router-view />
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -18,7 +20,7 @@ export default {
   },
   data: function () {
     return {
-      
+
     };
   },
   created() {
