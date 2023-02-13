@@ -1,7 +1,8 @@
 {
-  "name": "starter-frontend",
-  "version": "0.1.0",
-  "private": true,
+  "name": "nazmussakib44-vue-starter-kit",
+  "version": "1.0.0",
+  "description": "A Laravel back-end & Vue front-end starter kit with registration, login, authentication & logout (laravel/sanctum, Vue router, Vuex, Axios & Interceptor )",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
