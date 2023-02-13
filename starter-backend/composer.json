@@ -1,5 +1,5 @@
 {
-    "name": "nazmussakib44/laravel-starter-kit",
+    "name": "nazmussakib44/laravel-vue-starter-kit",
     "type": "project",
     "description": "A Laravel back-end & Vue front-end starter kit with registration, login, authentication & logout (laravel/sanctum, Vue router, Vuex, Axios & Interceptor )",
     "keywords": ["laravel", "vue", "vuex", "axios", "interceptor"],
