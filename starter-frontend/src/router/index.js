@@ -28,6 +28,12 @@ const routes = [
 ];
 
 
+const router = createRouter({
+  history: createWebHistory(process.env.BASE_URL),
+  mode: "history",
+  routes,
+});
+
 router.beforeEach((to, from, next) => {
   if(to.matched.some(record => record.meta.requiresAuth)) {
      if(!localStorage.getItem('token')) {
@@ -39,12 +45,6 @@ router.beforeEach((to, from, next) => {
   } else {
      next();
   }
-});
-
-const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
-  mode: "history",
-  routes,
 });
 
 export default router;

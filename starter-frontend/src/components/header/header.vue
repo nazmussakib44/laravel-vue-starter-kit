@@ -25,7 +25,9 @@ export default {
         }
     },
     methods: {
-
+        onLogout() {
+            this.$store.dispatch("auth/logout");
+        }
     },
 }
 </script>

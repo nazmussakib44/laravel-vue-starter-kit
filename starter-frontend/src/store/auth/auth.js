@@ -43,6 +43,7 @@ export const actions = {
         };
         commit("SET_NOTIFICATION", messageData);
         dispatch("get_user");
+        router.push({ path: "/" });
       })
       .catch((err) => {
         localStorage.setItem("token", "");

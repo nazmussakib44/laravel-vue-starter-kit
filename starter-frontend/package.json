@@ -1,5 +1,5 @@
 {
-  "name": "nazmussakibs-laravel-vue-starter-kit",
+  "name": "starter-frontend",
   "version": "1.0.3",
   "description": "A Laravel back-end & Vue front-end starter kit with registration, login, authentication & logout (laravel/sanctum, Vue router, Vuex, Axios & Interceptor )",
   "private": false,
