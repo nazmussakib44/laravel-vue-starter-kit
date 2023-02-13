@@ -1,7 +1,7 @@
 import axios from "axios";
 import config from '../config';
 
-export const api = axios.create({
+export const authService = axios.create({
   baseURL: config.apiUrl + '/api',
   timeout: 1000 * 60 * 10,
   headers: getApiClientHeader(),
@@ -17,10 +17,10 @@ function getApiClientHeader() {
 
 export default {
   login(payload) {
-    return api.post("/login", payload);
+    return authService.post("/login", payload);
   },
   register(payload) {
-    return api.post("/register", payload);
+    return authService.post("/register", payload);
   },
 };
 

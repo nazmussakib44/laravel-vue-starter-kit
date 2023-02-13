@@ -1,5 +1,5 @@
 import router from "@/router";
-import api from "@/services/api";
+import authService from "@/services/auth-service";
 import service from "@/services/service";
 
 export const namespaced = true;
@@ -32,7 +32,7 @@ export const mutations = {
 export const actions = {
   login({ commit, dispatch, state }, payload) {
     commit("SET_LOADING", true);
-    api
+    authService
       .login(payload)
       .then((response) => {
         localStorage.setItem("token", response.data.access_token);
