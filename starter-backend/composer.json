@@ -1,8 +1,8 @@
 {
-    "name": "laravel/laravel",
+    "name": "nazmussakib44/laravel-vue-starter-kit",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "A Laravel back-end & Vue front-end starter kit with registration, login, authentication & logout (laravel/sanctum, Vue router, Vuex, Axios & Interceptor )",
+    "keywords": ["laravel", "vue", "vuex", "axios", "interceptor"],
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
