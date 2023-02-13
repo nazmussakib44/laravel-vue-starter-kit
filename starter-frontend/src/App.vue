@@ -9,6 +9,7 @@
 
 <script>
 import siteHeader from "@/components/header/header.vue";
+import '@/assets/tailwind.css';
 
 export default {
   name: "App",
@@ -25,7 +26,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss">
-@import "./assets/scss/app.scss";
-</style>

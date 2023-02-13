@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>Welcome to this site</p>
+        <p class="text-2xl font-bold text-blue-800">Welcome to this site</p>
     </div>
   </template>
   
